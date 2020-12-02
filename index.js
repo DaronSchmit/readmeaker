@@ -5,33 +5,38 @@ inquirer
   .prompt([
     {
       type: "input",
-      message: "What is your name?",
-      name: "username",
+      message: "What is this project's name?",
+      name: "name",
     },
     {
       type: "input",
-      message: "Where do you live?",
-      name: "location",
-    },
-    {
-      type: "input",
-      message: "Write a brief bio sentence describing your portfolio.",
+      message: "What is a good description of your project?",
       name: "description",
     },
     {
       type: "input",
-      message: "What is your LinkedIn profile URL?",
-      name: "linkedin",
+      message: "How does a user install this?",
+      name: "installation",
     },
     {
       type: "input",
-      message: "What is your GitHub username?",
-      name: "github",
+      message: "How does a user use this project?",
+      name: "usage",
+    },
+    {
+      type: "input",
+      message: "Do you have any credits to give?",
+      name: "credits",
+    },
+    {
+      type: "input",
+      message: "Does this project have a license?",
+      name: "license",
     },
   ])
   .then((data) => {
-    const fileName = "index.html";
-    let openingHtml = `<!DOCTYPE html>
+    const fileName = "README.ms";
+    let text = `<!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -57,7 +62,7 @@ inquirer
 
     </body>
     </html>`;
-    fs.writeFile(fileName, openingHtml, (error) =>
+    fs.writeFile(fileName, text, (error) =>
       error ? console.log(error) : console.log("Successfully created file!")
     );
     // fs.appendFile(filename, openingHtml);
