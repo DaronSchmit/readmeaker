@@ -12,12 +12,10 @@ You can also download it directly here https://github.com/DaronSchmit/readmeaker
 
 Otherwise, a user may go to  https://daronschmit.github.io/DaronDayScheduler/ to see the webpage deployed live, or to the GitHub repository at https://github.com/DaronSchmit/DaronDayScheduler.
 
-![Readmeaker Setup](./Assets/setup-demo.gif)
-
 ## Usage
-Using git bash or your favorite terminal with node installed, navigate to directory of the program and run `npm i` to install all necessary modules (which is basically just inquirer. Alternately, use `npm i inquirer`). Then run `node index.js` to run the javascript file
+Using git bash or your favorite terminal with node installed, navigate to directory of the program and run `npm i` to install all necessary modules (which is basically just inquirer. Alternately, use `npm i inquirer`). Then run `node index.js` to run the javascript file. The new README.md file will be placed in /newREADME so as to keep it from overwriting any existing README files.
 
-![Readmeaker Usage](./Assets/usage-demo.gif)
+![Readmeaker Setup and Usage](./Assets/usage-demo.gif)
 
 
 ## Credits
