@@ -54,7 +54,7 @@ ${data.credits}
 ## License
 ${data.license}`;
 
-    fs.writeFile(fileName, text, (error) =>
+    fs.writeFile(`./newREADME/${fileName}`, text, (error) =>
       error ? console.log(error) : console.log("Successfully created file!")
     );
     // fs.appendFile(filename, openingHtml);

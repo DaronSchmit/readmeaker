@@ -1,17 +1,17 @@
-# This 
+# this
 
 ## Description
-That
+that
 
 ## Installation
-The 
+the
 
 ## Usage
-Other
+other
 
 
 ## Credits
-Thing
+thing no
 
 ## License
-No
+no
