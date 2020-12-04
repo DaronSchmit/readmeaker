@@ -35,7 +35,7 @@ inquirer
     },
   ])
   .then((data) => {
-    const fileName = "README.ms";
+    const fileName = "README.md";
     let text = `# ${data.name}
 
 ## Description
@@ -51,8 +51,9 @@ ${data.usage}
 ## Credits
 ${data.credits}
 
-##License
+## License
 ${data.license}`;
+
     fs.writeFile(fileName, text, (error) =>
       error ? console.log(error) : console.log("Successfully created file!")
     );
