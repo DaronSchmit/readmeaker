@@ -12,15 +12,16 @@ You can also download it directly here https://github.com/DaronSchmit/readmeaker
 
 Otherwise, a user may go to  https://daronschmit.github.io/DaronDayScheduler/ to see the webpage deployed live, or to the GitHub repository at https://github.com/DaronSchmit/DaronDayScheduler.
 
+![Readmeaker Setup](./Assets/setup-demo.gif)
+
 ## Usage
 Using git bash or your favorite terminal with node installed, navigate to directory of the program and run `npm i` to install all necessary modules (which is basically just inquirer. Alternately, use `npm i inquirer`). Then run `node index.js` to run the javascript file
 
-![Schedulinator!](./Assets/screencap.png)
-![Part 2!](./Assets/screencap2.png)
+![Readmeaker Usage](./Assets/usage-demo.gif)
 
 
 ## Credits
-Big credits to Trilogy and university of minnesota coding bootcamp put on by Charlie Werness for the bones of this project and the guidance to get through it.
+Credits to a Trilogy Fullstack bootcamp for the class activity that formed the bones of this project. Also Amy Paschke who was the main coder for our group in that activity.
 
-##License
+## License
 This is published under MIT license, but is subject for Trilogy's All Rights Reserved.

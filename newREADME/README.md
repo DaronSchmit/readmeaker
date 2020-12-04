@@ -1,17 +1,17 @@
-# this
+# Readmeaker
 
 ## Description
-that
+This project generates a good readme for your project!
 
 ## Installation
-the
+use the link in github to download and unzip the file, then run `node index.js` to start the program
 
 ## Usage
-other
+follow the prompts!
 
 
 ## Credits
-thing no
+Credits to Charlie Werness and the TAs from the bootcamp
 
 ## License
-no
+Standard MIT License (included in repo)
