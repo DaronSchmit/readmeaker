@@ -1,17 +1,17 @@
-# Readmeaker
+# READMEAKER
 
 ## Description
-This project generates a good readme for your project!
+This is a tool to help developers make a basic readme for their project!
 
 ## Installation
-use the link in github to download and unzip the file, then run `node index.js` to start the program
+Go to the github repo, fork, and clone. OR download the zip file and decompress
 
 ## Usage
-follow the prompts!
+when in the project directory, use npm i to install dependencies, then use node index.js to get started
 
 
 ## Credits
-Credits to Charlie Werness and the TAs from the bootcamp
+big credits to Trilogy Fullstack bootcamp for the class activity and Amy Paschke for the coding during the activity
 
 ## License
-Standard MIT License (included in repo)
+Standard MIT license
